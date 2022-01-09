@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>列表</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #000000;
+}
+-->
+</style>
+<script >
+  function defaulIframePageHeight()
+
+{
+var ifm = document.getElementById("defaulIframePage");
+var subWeb = document.frames ? document.frames["defaulIframePage"].document : ifm.contentDocument;
+if (ifm != null && subWeb != null)
+
+{
+ifm.height = subWeb.body.scrollHeight;
+}
+}
+</script>
+</head>
+
+<body>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" bordercolor="#333333">
+  <tr>
+    <td width="100%"><iframe allowtransparency="true" src="list/l_1.html" id="defaulIframePage" name="chentop2" frameborder="0" scrolling="no" width="100%" onload="defaulIframePageHeight()"></iframe></td>
+    </tr>
+</table>
+</body>
+</html>

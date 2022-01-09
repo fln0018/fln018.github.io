@@ -1,0 +1,55 @@
+/* CSS Document */
+html,body,select { margin:0; background:#red; 
+  scrollbar-face-color: #333;
+  scrollbar-shadow-color: #999;
+  scrollbar-mediumlight-color: #333;
+  scrollbar-track-color: #666;
+  scrollbar-arrow-color: #7497b9;
+  scrollbar-base-color :#333;
+  scrollbar-darkshadow-color:#666;
+}
+*{ margin:0; padding:0; list-style-type:none;font-size:18px; color:#00FF00}
+#mu{ margin:1px; background:#000000; padding:0px; color:#0f0; font-size:14px; border:4px #410113 solid; width:100%;}
+#mu ul li{ border:1px #410113 solid; margin:1px; padding:3px;height:16px}
+#mu ul li a{color:#0f0;font-size:16px;}
+#mu #Hot{color:#FF8000;}
+#mu #so{ height:20px;}
+.sostyle{ float:none; height:16px; width:115px; BORDER-RIGHT: #c0c0c0 1px solid; BORDER-TOP: #c0c0c0 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #c0c0c0 1px solid; COLOR: #666666; BORDER-BOTTOM: #c0c0c0 1px solid}
+.sosub{  float:none; border:0; width:37px; height:18px; background:url(../Img/c.gif)}
+/*input{ background: #fff; float:right; border:0; width:14px; height:14px;}*/
+input{ float:right; width:14px; height:14px; font-size:12px;}
+#txtjunjunMusicName{ float:left; width:110px;  height:12px; color:#555; margin-bottom:5px;}
+#junjunso{ background-color: #eeeeee; border-bottom: #a2a2a2 1px solid; border-left: #ffffff 1px solid; 
+border-right:#a2a2a2 1px solid;border-top:#ffffff 1px solid;color:#333333;font-size:12px; width:25px;  height:16px;}
+#jjcc{ background-color: #eeeeee; border-bottom: #a2a2a2 1px solid; border-left: #ffffff 1px solid; 
+border-right:#a2a2a2 1px solid;border-top:#ffffff 1px solid;color:#333333;font-size:12px;width:40px;height:16px; clear:both; float:none; margin-left:5px;margin-bottom:5px;}
+#yidong{ width:98px; height:18px; clear:both; float:none; color:#000; margin-left:5px;}
+#np{height:18px;}
+a:link{font-size:12px;text-decoration:none;color:#0f0;}
+a:visited{font-size:12px;text-decoration:none;color:#0f0;}
+a:hover{text-decoration:underline;color:0f0;}
+#mu1{ width:450px; height:45px; border: 1px #333 solid; margin:3px auto; padding:0}
+#mu1 dd{ width:270px; float:left;}
+#mu1 dt{ width:180px; float:left}
+#mu2{ width:450px; height:20px; border: 1px #333 solid; margin:3px auto; overflow:hidden;}
+#mu2 dt{width:60px; float:right; margin:3px 0; list-style-type:none;}
+#mu2 dd{width:340px; margin:3px; color:#FF8000; list-style-type:none; float:left}
+#mu2 li{ float:left; list-style-type:none; width:120px; text-align:center; padding:3px 10px;}
+#mu2 input{ width:40px; color:#000; margin-right:20px; font: "ËÎÌו" 12px;}
+#mu3{ width:452px; border: 0px #333 solid; margin:0 auto; overflow:hidden;}
+#mu3 li{ list-style-type:none; width:150px; border: 1px #333 solid; margin:3px 0; line-height:150%; overflow:hidden;}
+#mu3 select{margin:-3px;line-height:14px; background:#000; width:156px; padding-left:3px;}
+#mu3 #lrcollbox{float:right;overflow:hidden;height:234px;width:295px; border: 1px #333 solid; margin:3px 0;}
+#mu3 dl{ line-height:100%; margin:3px;}
+#mu3 dl #jjcc{ margin:2px 0; height:20px;}
+#classMusic{ display:none; border:3px solid #903; position:absolute; top:0; left:auto; right:3px; width:80px; background:#000; padding:3px; line-height:140%;}
+#classMusic li{ overflow:hidden; height:18px;}
+#classMusic p{ background:#333333; color:#ff0; font-weight:bold; line-height:140%;}
+#td {FONT-SIZE:9pt;LINE-HEIGHT:17px;}
+#lrcollbox td, #lrcollbox font {font-size:12px;overflow:hidden;} 
+#lrcoll{margin-top:5px;}
+#lrcoll td,{color:#0080C0;cursor:default;overflow:hidden;} 
+#lrcbox {color:#0f0;} 
+#lrcfilter {filter:alpha(opacity=0);} 
+.red{color: #FF0000}
+.mulb{ width:300px; overflow:hidden; float:left; white-space:nowrap}
